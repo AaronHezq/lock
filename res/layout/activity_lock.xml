@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <com.example.lock.view.JellyViewPager
+        android:id="@+id/myViewPager1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.example.lock.view.JellyViewPager>
+
+   <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:id="@+id/lock_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp" 
+            android:src="@drawable/lock_n"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dp"/>
+        
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="解锁按钮" />
+    </RelativeLayout>
+
+</RelativeLayout>

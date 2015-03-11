@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:id="@+id/home_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/tabbar_bg_7"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/home_bottom_btn_1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="selectbar"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/home_bottom_img"
+                android:src="@drawable/tabbar_home" >
+            </ImageView>
+
+            <TextView
+                style="@style/home_bottom_text"
+                android:text="@string/home_bottom_1" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/home_bottom_btn_2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="selectbar"
+            android:orientation="vertical" >
+
+            <ImageView
+                style="@style/home_bottom_img"
+                android:src="@drawable/tabbar_service" >
+            </ImageView>
+
+            <TextView
+                style="@style/home_bottom_text"
+                android:text="@string/home_bottom_2" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/home_bottom_btn_3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="selectbar"
+            android:orientation="vertical" >
+
+            <ImageView
+                style="@style/home_bottom_img"
+                android:src="@drawable/tabbar_life" >
+            </ImageView>
+
+            <TextView
+                style="@style/home_bottom_text"
+                android:text="@string/home_bottom_3" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/home_bottom_btn_4"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="selectbar"
+            android:orientation="vertical" >
+
+            <ImageView
+                style="@style/home_bottom_img"
+                android:src="@drawable/tabbar_news" >
+            </ImageView>
+
+            <TextView
+                style="@style/home_bottom_text"
+                android:text="@string/home_bottom_4" >
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <View
+            android:id="@+id/home_bottom_btn_bg1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+
+        <View
+            android:id="@+id/home_bottom_btn_bg2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+
+        <View
+            android:id="@+id/home_bottom_btn_bg3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+
+        <View
+            android:id="@+id/home_bottom_btn_bg4"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    
+    <FrameLayout
+        android:id="@+id/home_content"
+        android:layout_above="@id/home_bottom_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</RelativeLayout>

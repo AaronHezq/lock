@@ -1,0 +1,6 @@
+<resources>
+
+    <dimen name="home_viewpager">150dp</dimen>
+    <dimen name="home_text_height">36dp</dimen>
+
+</resources>
