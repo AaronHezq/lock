@@ -161,7 +161,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-                android:background="@drawable/getcode"
+                android:background="@drawable/getcode_bg"
                 android:onClick="getCode"
                 android:text="一键获取邀请码"
                 android:textColor="@color/white"
