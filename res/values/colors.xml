@@ -17,6 +17,8 @@
    	<color name="title">#676565</color> <!-- 标题颜色 -->
     <color name="time">#104E8B</color> <!-- 时间颜色 -->
     <color name="blueqian">#66c6ff</color> <!-- 浅蓝色 -->
+    <color name="xline">#d8d7d9</color> <!-- 水平分割线-->
+    
     
     
     

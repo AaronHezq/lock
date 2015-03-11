@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange"
+    android:background="@color/white"
     android:orientation="vertical" >
 
     <RelativeLayout
@@ -16,10 +16,105 @@
             android:text="@string/home_bottom_4" />
     </RelativeLayout>
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ButtonDDDDDDDDDDdd" />
+    <RelativeLayout
+        android:id="@+id/setting_item_1"
+        style="@style/setting_item_layout" >
+
+        <ImageView
+            style="@style/setting_item_icon"
+            android:background="@drawable/more_item1" />
+
+        <TextView
+            style="@style/setting_item_text"
+            android:text="锁屏设置" />
+
+        <View style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/xline" />
+
+    <RelativeLayout
+        android:id="@+id/setting_item_2"
+        style="@style/setting_item_layout" >
+
+        <ImageView
+            style="@style/setting_item_icon"
+            android:background="@drawable/more_item2" />
+
+        <TextView
+            style="@style/setting_item_text"
+            android:text="我的账户" />
+
+        <View style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/xline" />
+
+    <RelativeLayout
+        android:id="@+id/setting_item_3"
+        style="@style/setting_item_layout" >
+
+        <ImageView
+            style="@style/setting_item_icon"
+            android:background="@drawable/more_item3" />
+
+        <TextView
+            style="@style/setting_item_text"
+            android:text="我的下载" />
+
+        <View style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/xline" />
+
+    <RelativeLayout
+        android:id="@+id/setting_item_4"
+        style="@style/setting_item_layout" >
+
+        <ImageView
+            style="@style/setting_item_icon"
+            android:background="@drawable/more_item4" />
+
+        <TextView
+            style="@style/setting_item_text"
+            android:text="流量控制" />
+
+        <View style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/xline" />
+
+    <RelativeLayout
+        android:id="@+id/setting_item_5"
+        style="@style/setting_item_layout" >
+
+        <ImageView
+            style="@style/setting_item_icon"
+            android:background="@drawable/more_item5" />
+
+        <TextView
+            style="@style/setting_item_text"
+            android:text="关于锁屏" />
+
+        <View style="@style/setting_item_right" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/xline" />
 
 </LinearLayout>

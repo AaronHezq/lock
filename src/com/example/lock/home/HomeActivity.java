@@ -14,6 +14,7 @@ import com.example.lock.home.fragment.FragmentA;
 import com.example.lock.home.fragment.FragmentB;
 import com.example.lock.home.fragment.FragmentC;
 import com.example.lock.home.fragment.FragmentD;
+import com.example.lock.utils.ToastUtil;
 
 
 /**
@@ -131,6 +132,29 @@ public class HomeActivity extends FragmentActivity {
 		}
 	}
 	
+	/**
+	 * 更多，item点击事件
+	 * @param v
+	 */
+	public void selectSetItem(View v) {
+		switch (v.getId()) {
+		case R.id.setting_item_1://锁屏设置
+			ToastUtil.showShortToast(this, "锁屏设置");
+			break;
+		case R.id.setting_item_2://我的账户
+			ToastUtil.showShortToast(this, "我的账户");
+			break;
+		case R.id.setting_item_3://我的下载
+			ToastUtil.showShortToast(this, "我的下载");
+			break;
+		case R.id.setting_item_4://流量控制
+			ToastUtil.showShortToast(this, "流量控制");
+			break;
+		case R.id.setting_item_5://关于锁屏
+			ToastUtil.showShortToast(this, "关于锁屏");
+			break;
+		}
+	}
 	
 	
 	/**
