@@ -8,7 +8,6 @@ import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
-import android.widget.TextView;
 
 import com.example.lock.R;
 import com.example.lock.home.fragment.FragmentA;
