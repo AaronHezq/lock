@@ -13,7 +13,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.example.lock.R;
-
+/**
+ * 收益页面
+ * @author hzq
+ *
+ */
 public class FragmentA extends Fragment {
 
 	private Context context;
