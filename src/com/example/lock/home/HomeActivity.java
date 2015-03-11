@@ -4,6 +4,7 @@ package com.example.lock.home;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
@@ -14,6 +15,7 @@ import com.example.lock.home.fragment.FragmentA;
 import com.example.lock.home.fragment.FragmentB;
 import com.example.lock.home.fragment.FragmentC;
 import com.example.lock.home.fragment.FragmentD;
+import com.example.lock.utils.DialogUtil;
 import com.example.lock.utils.ToastUtil;
 
 
@@ -33,6 +35,12 @@ public class HomeActivity extends FragmentActivity {
 	private final static int INDEX_2 = 2;
 	private final static int INDEX_3 = 3;
 	private final static int INDEX_4 = 4;
+	
+	private Handler handler = new Handler() {
+		public void handleMessage(android.os.Message msg) {
+			
+		};
+	};
 	
 	@Override
 	protected void onCreate(Bundle bundle) {
@@ -137,7 +145,7 @@ public class HomeActivity extends FragmentActivity {
 	 * @param view
 	 */
 	public void invite(View view) {
-		ToastUtil.showShortToast(this, "立即邀请");
+		DialogUtil.showYQ(this, handler);
 	}
 	
 	/**
