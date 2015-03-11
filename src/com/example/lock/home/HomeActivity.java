@@ -133,6 +133,22 @@ public class HomeActivity extends FragmentActivity {
 	}
 	
 	/**
+	 * 立即邀请
+	 * @param view
+	 */
+	public void invite(View view) {
+		ToastUtil.showShortToast(this, "立即邀请");
+	}
+	
+	/**
+	 * 一键获取邀请码
+	 * @param view
+	 */
+	public void getCode(View view) {
+		ToastUtil.showShortToast(this, "一键获取邀请码");
+	}
+	
+	/**
 	 * 更多，item点击事件
 	 * @param v
 	 */
